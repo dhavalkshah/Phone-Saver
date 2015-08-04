@@ -1,0 +1,72 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="horizintalBlank">
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="verticalBlank">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="enabledText">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">#ff33b5e5</item>
+    </style>
+    <style name="enabledBigText">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff33b5e5</item>
+    </style>
+    <style name="disabledText">
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">#ffadadad</item>
+    </style>
+    <style name="disabledBigText">
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffadadad</item>
+    </style>
+    <style name="ThinHorizontalSeparator">
+        <item name="android:background">#90909090</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+    <style name="ThickHorizontalSeparator">
+        <item name="android:background">#90909090</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">5.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+    <style name="CustomActionBarTheme"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="MyActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#ff33b5e5</item>
+    </style>
+
+</resources>
